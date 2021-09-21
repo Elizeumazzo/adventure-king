@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 // sleep(1) = System.Threading.Thread.Sleep(1000)
-public class playerscript : MonoBehaviour
+public class Movement : MonoBehaviour
 {
     private Rigidbody2D rb;
     public bool isGrounded;
